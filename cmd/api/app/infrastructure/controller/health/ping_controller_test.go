@@ -5,6 +5,8 @@ import (
 	"net/http/httptest"
 
 	"github.com/gin-gonic/gin"
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Ping Controller", func() {

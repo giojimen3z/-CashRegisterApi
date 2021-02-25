@@ -2,6 +2,9 @@ package config
 
 import (
 	"os"
+
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Data Base client", func() {
